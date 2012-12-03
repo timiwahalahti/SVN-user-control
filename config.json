@@ -28,18 +28,18 @@
     ],
     "errors": [
         {
-            "add_general": "General error",
-            "add_username": "Gimme username!",
-            "add_passwd": "Gimme password!",
-            "delete": "error when removing user",
-            "modify": "error modifying groups"
+            "add_general": "Error occurred during adding a user!",
+            "add_username": "Please enter username!",
+            "add_passwd": "Please enter password!",
+            "delete": "Error occurred during deleting a user!",
+            "modify": "Error occurred!"
         }
     ],
     "succes": [
         {
-            "add": "user is added",
-            "delete": "user is removed",
-            "modify": "Tiedosto tallennettu"
+            "add": "added successfully",
+            "delete": "User removed successfully",
+            "modify": "Changes saved"
         }
     ]
 }
