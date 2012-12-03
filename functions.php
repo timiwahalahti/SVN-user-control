@@ -1,11 +1,4 @@
 <?php
-/*
-
-Author Timi Wahalahti (http://wahalahti.fi)
-This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.
-
-*/
-
 $config_json = file_get_contents("config.json");
 $config = json_decode($config_json);
 $is_ajax = $_POST['is_ajax'];
@@ -13,7 +6,7 @@ $is_ajax = $_POST['is_ajax'];
 $func = $_POST['func'];
 if (isset($func)) {
 	if ($func == 1) {
-	call_user_func('add');
+		call_user_func('add');
 	}
 	if ($func == 2) {
 		call_user_func('delete');
