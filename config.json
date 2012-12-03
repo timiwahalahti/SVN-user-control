@@ -1,6 +1,6 @@
 {
-    "users_file": "/home/sippis/users.txt",
-    "auth_file": "/home/sippis/authz.txt",
+    "users_file": "/path/to/users/file",
+    "auth_file": "/path/to/auth/file",
     "site_name": "SVN user control",
     "site_text": [
         {
@@ -37,7 +37,7 @@
     ],
     "succes": [
         {
-            "add": "added successfully",
+            "add": "Added successfully",
             "delete": "User removed successfully",
             "modify": "Changes saved"
         }
