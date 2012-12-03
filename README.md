@@ -17,10 +17,9 @@ To improve safety I recommend to put htaccess auth in to the SVN control panel f
 If you are wearing a tinfoil hat, you should probably rename config.json with [random string](https://www.grc.com/passwords.htm). If you do that, also remember to change configuration file name in index.php and functions.php.
 
 You can also protect config.json file with htaccess. To do that, add following lines to your .htaccess file:
-
-_<Files config.json>_
-_require valid-user_
-_</Files>_
+    &lt;Files config.json&gt;
+    require valid-user
+    &lt;/Files&gt;
 
 ### Please note
 
