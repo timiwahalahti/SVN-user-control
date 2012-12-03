@@ -1,0 +1,45 @@
+{
+    "users_file": "/home/sippis/users.txt",
+    "auth_file": "/home/sippis/authz.txt",
+    "site_name": "SVN user control",
+    "site_text": [
+        {
+            "title": "SVN user control",
+            "expl": "This is simple SVN user control panel<br>made by <a href='http://wahalahti.fi' target='_blank'>Timi Wahalahti</a>."
+        },
+        {
+            "header": "Add new user",
+            "expl": "New user will not be automatically added to any group, or get permissions to directories.",
+            "username": "Username",
+            "passwd": "Password",
+            "button": "Add"
+        },
+        {
+            "header": "Remove user",
+            "expl": "Removed user rights are not automatically deleted.",
+            "no_users": "No users",
+            "button": "Remove"
+        },
+        {
+            "header": "Modify groups and permissions",
+            "expl": "<b>Modifying groups:</b><br>Seperate users with comma, no spaces!<br><br><b>Setting directory permissions:</b><br>New directory is added in form of [/path/to/directory], be sure to add rule for users without group with * = 'permissions'<br><br>Directory that already exists, add group rights with the new row like @'group' = 'permissions'<br><br><b>Permissions:</b><br>r = only read<br>rw = read and write",
+            "button": "Save"
+        }
+    ],
+    "errors": [
+        {
+            "add_general": "General error",
+            "add_username": "Gimme username!",
+            "add_passwd": "Gimme password!",
+            "delete": "error when removing user",
+            "modify": "error modifying groups"
+        }
+    ],
+    "succes": [
+        {
+            "add": "user is added",
+            "delete": "user is removed",
+            "modify": "Tiedosto tallennettu"
+        }
+    ]
+}
